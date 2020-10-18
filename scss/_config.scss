@@ -1,0 +1,9 @@
+button {
+  outline: none;
+}
+
+@mixin media-mobile {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
