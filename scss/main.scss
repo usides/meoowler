@@ -11,8 +11,8 @@ body {
   min-height: 100vh;
 }
 
-nav {
-  ul {
+nav.main-nav {
+  ul.nav-menu {
     margin: 0;
     list-style-type: none;
     display: flex;
