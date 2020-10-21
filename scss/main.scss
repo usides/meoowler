@@ -13,10 +13,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-  height: 100%;
+  flex: 1 0 auto;
 }
 
 .nav-menu {
@@ -51,7 +53,7 @@ body {
   margin: 0 0.3rem;
 }
 
-#btn-app {
+.btn-app {
   position: absolute;
   opacity: 0;
   &:checked ~ div.hidden {
@@ -141,7 +143,7 @@ body {
   }
 }
 
-#btn-more {
+.btn-more {
   position: absolute;
   opacity: 0;
   &:checked ~ .hidden {
@@ -245,7 +247,7 @@ body {
 }
 
 footer {
-  margin-top: -53px;
+  flex-shrink: 0;
 }
 
 .credits {
