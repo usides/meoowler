@@ -27,13 +27,13 @@
       -webkit-text-stroke: 0.1rem #fff;
     }
   }
-}
 
-.input-field {
-  min-width: 10rem;
-  min-height: 1.7rem;
-  font-size: 1rem;
-  &:focus {
-    min-width: 18rem;
+  .input-field {
+    min-width: 10rem;
+    min-height: 1.7rem;
+    font-size: 1rem;
+    &:focus {
+      min-width: 18rem;
+    }
   }
 }

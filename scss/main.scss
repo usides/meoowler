@@ -2,16 +2,24 @@
 
 $selection: #423e3e;
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-image: url(../img/cat_bg.jpg);
   background-position: 22% 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
 }
 
-ul.nav-menu {
+.content {
+  height: 100%;
+}
+
+.nav-menu {
   margin: 0;
   list-style-type: none;
   display: flex;
@@ -184,14 +192,12 @@ ul.nav-menu {
   }
 }
 
-main {
+.search-form {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-.search-form {
   h1 {
     font-family: 'Russo One', sans-serif;
     color: #423e3e;
@@ -239,16 +245,19 @@ main {
 }
 
 footer {
-  position: absolute;
-  bottom: 0%;
-  width: 100%;
-  p {
-    text-align: center;
-    padding: 1rem;
-    font-family: 'Rajdhani', sans-serif;
-    color: #fff;
-    text-transform: lowercase;
-    font-weight: bold;
+  margin-top: -53px;
+}
+
+.credits {
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+  text-transform: lowercase;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 }
 
@@ -272,6 +281,10 @@ footer {
 
   .menu-popup-more-btn:hover {
     background-color: #ffffff33;
+  }
+
+  .credits a:hover {
+    color: $selection;
   }
 }
 
