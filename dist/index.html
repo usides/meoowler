@@ -1,82 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meoowler</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meoowler</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-
-<body>
-  <div class="content">
-    <nav class="main-nav">
-      <ul class="nav-menu">
-        <li class="menu-item">
-          <a href="https://mail.google.com/" class="direct-link">Meowil</a>
-        </li>
-        <li class="menu-item">
-          <a href="https://www.google.com/search?q=cat+photos" class="direct-link">CatPics</a>
-        </li>
-        <li class="menu-item">
-          <div class="menu">
-            <input type="checkbox" class="btn-app" id="btn-app" />
-            <label class="menu-btn-app" for="btn-app"><img src="./img/apps-grid.svg" alt="app-button" /></label>
-            <div class="triangle hidden"></div>
-            <div class="menu-popup hidden">
-              <a href="#" class="menu-popup-item location"><img src="./img/app-location.svg" alt="MeoMap">
-                <p>MeoMap</p>
-              </a>
-              <a href="#" class="menu-popup-item calendar"><img src="./img/app-calendar.svg" alt="Catlendar">
-                <p>CaTlendar</p>
-              </a>
-              <a href="#" class="menu-popup-item mail"><img src="./img/app-mail.svg" alt="Meowil">
-                <p>Meowil</p>
-              </a>
-              <a href="#" class="menu-popup-item cat"><img src="./img/app-cat.svg" alt="Kittys">
-                <p>Kittys</p>
-              </a>
-              <a href="#" class="menu-popup-item meat"><img src="./img/app-meat.svg" alt="MeoMeat">
-                <p>MeoMeat</p>
-              </a>
-              <a href="#" class="menu-popup-item audio"><img src="./img/app-audio.svg" alt="Mouser">
-                <p>Mouser</p>
-              </a>
-              <input type="checkbox" id="btn-more" class="btn-more" />
-              <label class="menu-popup-more-btn" for="btn-more">more</label>
-              <a href="#" class="menu-popup-item video hidden"><img src="./img/app-video.svg" alt="KitVid">
-                <p>KitVid</p>
-              </a>
-              <a href="#" class="menu-popup-item fish hidden"><img src="./img/app-fish.svg" alt="Fishdex">
-                <p>Fishdex</p>
-              </a>
-              <a href="#" class="menu-popup-item human hidden"><img src="./img/app-human.svg" alt="Mouser">
-                <p>PatBud</p>
-              </a>
+  <body>
+    <div class="content">
+      <nav class="main-nav">
+        <ul class="nav-menu">
+          <li class="menu-item">
+            <a href="https://mail.google.com/" class="direct-link">Meowil</a>
+          </li>
+          <li class="menu-item">
+            <a
+              href="https://www.google.com/search?q=cat+photos"
+              class="direct-link"
+              >CatPics</a
+            >
+          </li>
+          <li class="menu-item">
+            <div class="menu">
+              <input type="checkbox" class="btn-app" id="btn-app" />
+              <label class="menu-btn-app" for="btn-app"
+                ><img src="./img/apps-grid.svg" alt="app-button"
+              /></label>
+              <div class="triangle hidden"></div>
+              <div class="menu-popup hidden">
+                <a href="#" class="menu-popup-item catpol"
+                  ><img src="./img/app-intercat.svg" alt="Intercatpol" />
+                  <p class="proj-link">ICP</p>
+                </a>
+                <a href="#" class="menu-popup-item human"
+                  ><img src="./img/app-human.svg" alt="PatBud" />
+                  <p class="proj-link">PatBud</p>
+                </a>
+                <a href="#" class="menu-popup-item wall"
+                  ><img src="./img/app-wall.svg" alt="WallWatchers" />
+                  <p class="proj-link">WallW</p>
+                </a>
+                <a href="#" class="menu-popup-item catpol"
+                  ><img src="./img/app-intercat.svg" alt="Intercatpol Trainer" />
+                  <p class="proj-link">ICP-T</p>
+                </a>
+                <a href="#" class="menu-popup-item meat"
+                  ><img src="./img/app-cocktail.svg" alt="BartenderBro" />
+                  <p class="proj-link">BBro</p>
+                </a>
+                <a href="#" class="menu-popup-item audio"
+                  ><img src="./img/app-location.svg" alt="MeoMap" />
+                  <p>MeoMap</p>
+                </a>
+                <input type="checkbox" id="btn-more" class="btn-more" />
+                <label class="menu-popup-more-btn" for="btn-more">more</label>
+                <a href="#" class="menu-popup-item video hidden"
+                  ><img src="./img/app-video.svg" alt="KitVid" />
+                  <p>KitVid</p>
+                </a>
+                <a href="#" class="menu-popup-item fish hidden"
+                  ><img src="./img/app-fish.svg" alt="Fishdex" />
+                  <p>Fishdex</p>
+                </a>
+                <a href="#" class="menu-popup-item calendar hidden"
+                  ><img src="./img/app-calendar.svg" alt="CaTlendar" />
+                  <p>CaTlendar</p>
+                </a>
+              </div>
             </div>
+          </li>
+          <li class="menu-item">
+            <a
+              href="https://github.com/usides"
+              class="user-logo"
+              ><img src="./img/cat_profile.png" alt="Cat-profile"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <form class="search-form" action="./index.html" method="POST">
+          <h1>Meoowler</h1>
+          <div class="search-panel">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Meow Meow Meow"
+            />
+            <input type="submit" class="submit-button" value="" />
           </div>
-        </li>
-        <li class="menu-item">
-          <a href="https://github.com/usides/kottans-frontend" class="user-logo"><img src="./img/cat_profile.png"
-              alt="Cat-profile"></a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <form class="search-form" action="./index.html">
-        <h1>Meoowler</h1>
-        <div class="search-panel">
-          <input type="text" class="input-field" placeholder="Meow Meow Meow" />
-          <input type="submit" class="submit-button" value="" />
-        </div>
-      </form>
-    </main>
-  </div>
-  <footer>
-    <p class="credits">Created by <a href="https://github.com/usides/kottans-frontend">Usides</a> for <a
-        href="https://kottans.org/">kottans</a></p>
-  </footer>
-</body>
-
+        </form>
+        <p class="description">This is the entry point for projects that I made during the <a href="https://kottans.org/">Kottans</a> course.
+          All projects share fun design ideas dedicated to the web apps for cats.
+          This page has links to the other <strong>five</strong> projects located in the pop-up menu (top right corner).<br><br>
+          Project 1 - Meoowler.
+          Welcome page for search engine app.<br><br>
+          The main <a href="https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md">task</a> of this project was to create a pop-up menu without any JS code (only HTML and CSS).
+          <a href="https://github.com/usides/meoowler"><br>Code base</a>.</p>
+      </main>
+    </div>
+    <footer>
+      <div class="credits">
+      <p >
+        Created by
+        <a href="https://github.com/usides">Usides</a> for
+        <a href="https://kottans.org/">kottans</a>
+      </p>
+      <p>designed using resources from <a href="https://www.flaticon.com/">flaticon.com</a></p>
+    </div>
+    </footer>
+  </body>
 </html>

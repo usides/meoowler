@@ -1,3 +1,14 @@
+@include media-tablet {
+  .description {
+    font-size: 0.8rem;
+    width: 300px;
+    margin: 1rem auto;
+  } 
+  .menu-popup {
+    background-color: #000000d0;
+  } 
+}
+
 @include media-mobile {
   body {
     -webkit-background-size: 380% auto;
@@ -34,4 +45,10 @@
       min-width: 18rem;
     }
   }
+
+  .description {
+    font-size: 0.7rem;
+    width: 300px;
+    padding: 0.5rem;
+  } 
 }
