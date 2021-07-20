@@ -1,4 +1,4 @@
-# Meowler. 
+# Meoowler 
 Welcome page for search engine app.
 
 This [task](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md) was made during Kottans preparatory stage course.
